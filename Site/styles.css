@@ -1,0 +1,111 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: serif;
+  background-color: lightblue;
+}
+.hotel {
+  background-image: url(images/hotelimg);
+  background-size: 100%;
+  height: 400px;
+  background-position: center center;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+.name {
+  padding-top: 150px;
+}
+.name h1 {
+  background-color: aqua;
+  border-radius: 15px;
+  padding: 5px;
+  display: inline;
+  text-shadow: 5px 5px 7px;
+}
+.name h3 {
+  color: darkcyan;
+  font-size: xx-large;
+  text-shadow: 5px 5px 7px black;
+}
+.room-available {
+  background-color: lightblue;
+  text-align: center;
+}
+.avail-room {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.avail-room img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 5px solid white;
+}
+.avail-room img:hover {
+  width: 300px;
+  height: 300px;
+  transition: 1s;
+}
+.booking {
+  background-color: lightpink;
+  text-align: center;
+}
+.book {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lab {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 5px;
+}
+.rooms {
+  display: inline;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+}
+
+select option {
+  font-size: 14px;
+}
+.btn {
+  background-color: green;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.booking-details {
+  margin-left: 20px;
+}
+.cancel {
+  text-align: center;
+  padding: auto;
+  background-color: palevioletred;
+  display: block;
+  padding-bottom: 10px;
+}
+.cancel input {
+  display: inline;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+}
+#cancel-btn {
+  background-color: red;
+  color: #ccc;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+}
